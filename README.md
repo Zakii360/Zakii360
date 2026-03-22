@@ -7,9 +7,10 @@
 - 🏢 I’m looking to collaborate on any open source repo's like Bootstrap!
 - 📫 Wanna contact me?: <a href="zakii@360-search.com">Email</a>
 
-                                        Quick Links:
-  <a href="360-search.com">360</a>/n
+                                            Quick Links:
+  <a href="360-search.com">360</a>
+
   That's... all for now.....
 
-                                            Bye!
+                                                Bye!
 Thanks for checking out my profile! ✌🏼
