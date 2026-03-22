@@ -8,7 +8,7 @@
 - 📫 Wanna contact me?: <a href="zakii@360-search.com">Email</a>
 
                                         Quick Links:
-  <a href="360-search.com">360</a>
+  <a href="360-search.com">360</a>/n
   That's... all for now.....
 
                                             Bye!
