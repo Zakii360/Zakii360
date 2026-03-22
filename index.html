@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakii360 On GitHub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .container {
+            background-color: #fff;
+            width: 100%;
+            max-width: 800px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: hidden;
+            box-sizing: border-box;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            animation: slideInFromLeft 1s ease-out;
+        }
+
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 30px;
+            font-weight: 500;
+            animation: slideInFromRight 1s ease-out;
+        }
+
+        @keyframes slideInFromRight {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            position: relative;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .button::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            z-index: -1;
+        }
+
+        .button:hover::after {
+            transform: scaleX(1);
+            transform-origin: top left;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+            background: linear-gradient(45deg, #45a049, #4CAF50);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .quick-links {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        .quick-links a {
+            text-decoration: none;
+            padding: 15px 25px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            color: #333;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .quick-links a:hover {
+            background-color: #007bff;
+            color: white;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 1.2rem;
+            color: #888;
+        }
+
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #0056b3;
+        }
+
+        /* Scroll effect */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .scroll-reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hi there 👋</h1>
+        <h2>Welcome to my profile!</h2>
+
+        <p class="scroll-reveal">
+            🌱 I’m currently working on **360**, a search engine focused on improving the browsing experience and making it ✨<em>better</em>✨ for everyone!
+        </p>
+
+        <p class="scroll-reveal">
+            💻 I’m improving my skills in **JavaScript** and **CSS**, diving deep into web development, and creating more **interactive** and **dynamic** user experiences.
+        </p>
+
+        <p class="scroll-reveal">
+            🚀 I'm passionate about **front-end development** and looking to work on projects that involve **modern web frameworks** like **React** and **Vue**.
+        </p>
+
+        <p class="scroll-reveal">
+            📬 Wanna get in touch? Feel free to drop me an email at: <a href="mailto:zakii@360-search.com">zakii@360-search.com</a>
+        </p>
+
+        <button class="button" id="collabBtn">Let's Chat!</button>
+
+        <div class="quick-links">
+            <a href="https://github.com/360-By-360Digital/360" target="_blank">360 Repo</a>
+            <a href="https://github.com/zakii" target="_blank">My GitHub</a>
+        </div>
+
+        <div class="footer">
+            <p>Thanks for checking out my profile! Let’s build something awesome together. ✌🏼</p>
+        </div>
+    </div>
+
+    <script>
+        // Scroll reveal effect
+        const scrollRevealElements = document.querySelectorAll('.scroll-reveal');
+
+        window.addEventListener('scroll', () => {
+            scrollRevealElements.forEach((element) => {
+                const rect = element.getBoundingClientRect();
+                if (rect.top <= window.innerHeight * 0.9) {
+                    element.classList.add('visible');
+                }
+            });
+        });
+
+        // Ripple effect on button click
+        const buttons = document.querySelectorAll('.button');
+        buttons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                const ripple = document.createElement('span');
+                const rect = button.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.clientX - rect.left - size / 2;
+                const y = e.clientY - rect.top - size / 2;
+                ripple.style.width = ripple.style.height = `${size}px`;
+                ripple.style.left = `${x}px`;
+                ripple.style.top = `${y}px`;
+                ripple.classList.add('ripple');
+                button.appendChild(ripple);
+
+                // Remove ripple after animation
+                setTimeout(() => ripple.remove(), 600);
+            });
+        });
+    </script>
+
+</body>
+</html>
