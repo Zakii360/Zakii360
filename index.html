@@ -203,6 +203,14 @@
             font-size: 1.1rem;
             cursor: pointer;
             transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .github-signin img {
+            width: 18px;
+            margin-right: 10px;
         }
 
         .github-signin:hover {
@@ -235,50 +243,72 @@
             - 📫 Wanna contact me?: <a href="mailto:zakii@360-search.com">Email</a>
         </p>
 
-        <button class="button" id="collabBtn">Let's Chat!</button>
-        <button class="github-signin">Sign In with GitHub</button>
+        <!-- Removed 'Let's Talk' button, keeping hover effect on all buttons -->
+        <button class="button">Some Random Button</button>
+        <button class="github-signin" id="github-signin">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo">Sign In with GitHub
+        </button>
 
         <div class="quick-links">
-            <a href="https://github.com/360-By-360Digital/360" target="_blank">360 Repo</a>
-            <a href="https://github.com/zakii" target="_blank">My GitHub</a>
+            <a href="https://github.com/Zakii360" target="_blank">My GitHub</a>
         </div>
 
         <div class="footer">
             <p>Thanks for checking out my profile! ✌🏼</p>
         </div>
+
+        <div id="user-info" style="display: none;">
+            <h3>Welcome, <span id="user-name"></span>!</h3>
+            <p>Email: <span id="user-email"></span></p>
+            <p>GitHub Username: <span id="user-github"></span></p>
+            <button onclick="signOut()">Sign Out</button>
+        </div>
     </div>
 
     <script>
-        // Scroll reveal effect
-        const scrollRevealElements = document.querySelectorAll('.scroll-reveal');
+        // Initialize Supabase client
+        const supabaseUrl = 'https://your-project-id.supabase.co';  // Replace with your Supabase URL
+        const supabaseKey = 'your-public-anon-key';  // Replace with your Supabase public anon key
+        const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
-        window.addEventListener('scroll', () => {
-            scrollRevealElements.forEach((element) => {
-                const rect = element.getBoundingClientRect();
-                if (rect.top <= window.innerHeight * 0.9) {
-                    element.classList.add('visible');
-                }
+        // Handle GitHub sign-in
+        const githubSignInButton = document.getElementById('github-signin');
+
+        githubSignInButton.addEventListener('click', async () => {
+            const { user, session, error } = await supabase.auth.signInWithOAuth({
+                provider: 'github',
             });
+
+            if (error) {
+                console.error('Error during GitHub login', error.message);
+            } else {
+                // Handle successful login
+                displayUserInfo(user);
+            }
         });
 
-        // Ripple effect on all buttons
-        const buttons = document.querySelectorAll('.button, .github-signin');
-        buttons.forEach(button => {
-            button.addEventListener('click', (e) => {
-                const ripple = document.createElement('span');
-                const rect = button.getBoundingClientRect();
-                const size = Math.max(rect.width, rect.height);
-                const x = e.clientX - rect.left - size / 2;
-                const y = e.clientY - rect.top - size / 2;
-                ripple.style.width = ripple.style.height = `${size}px`;
-                ripple.style.left = `${x}px`;
-                ripple.style.top = `${y}px`;
-                ripple.classList.add('ripple');
-                button.appendChild(ripple);
+        // Display user info after sign-in
+        async function displayUserInfo(user) {
+            if (user) {
+                document.getElementById('user-info').style.display = 'block';
+                document.getElementById('user-name').textContent = user.user_metadata.full_name || 'No name provided';
+                document.getElementById('user-email').textContent = user.email || 'No email provided';
+                document.getElementById('user-github').textContent = user.user_metadata.github || 'No GitHub username provided';
+            }
+        }
 
-                // Remove ripple after animation
-                setTimeout(() => ripple.remove(), 600);
-            });
+        // Sign out user
+        async function signOut() {
+            await supabase.auth.signOut();
+            document.getElementById('user-info').style.display = 'none';
+        }
+
+        // Check for an existing session when the page loads
+        window.addEventListener('load', async () => {
+            const user = supabase.auth.user();
+            if (user) {
+                displayUserInfo(user);
+            }
         });
     </script>
 
