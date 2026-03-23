@@ -21,6 +21,7 @@
             height: 100vh;
             padding: 20px;
             overflow-x: hidden;
+            overflow-y: auto;
         }
 
         .container {
@@ -177,31 +178,65 @@
             transform: translateY(0);
         }
 
+        /* Ripple effect */
+        .ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            animation: ripple-animation 0.6s linear;
+        }
+
+        @keyframes ripple-animation {
+            100% {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+
+        /* GitHub Sign-in Button */
+        .github-signin {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 8px;
+            background-color: #24292f;
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .github-signin:hover {
+            transform: scale(1.05);
+            background-color: #3e444d;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+        }
+
     </style>
 </head>
 <body>
 
     <div class="container">
         <h1>Hi there 👋</h1>
-        <h2>Welcome to my profile!</h2>
+        <h2>Welcome to my profile site!</h2>
 
         <p class="scroll-reveal">
-            🌱 I’m currently working on **360**, a search engine focused on improving the browsing experience and making it ✨<em>better</em>✨ for everyone!
+            - ☕ I’m currently working on 360, a search engine focused on making browsing ✨<em>better</em>✨
         </p>
 
         <p class="scroll-reveal">
-            💻 I’m improving my skills in **JavaScript** and **CSS**, diving deep into web development, and creating more **interactive** and **dynamic** user experiences.
+           - 💲 I’m currently trying to get better at HTML...
         </p>
 
         <p class="scroll-reveal">
-            🚀 I'm passionate about **front-end development** and looking to work on projects that involve **modern web frameworks** like **React** and **Vue**.
+            - 🏢 I’m looking to collaborate on any open source repo's like Bootstrap!
         </p>
 
         <p class="scroll-reveal">
-            📬 Wanna get in touch? Feel free to drop me an email at: <a href="mailto:zakii@360-search.com">zakii@360-search.com</a>
+            - 📫 Wanna contact me?: <a href="mailto:zakii@360-search.com">Email</a>
         </p>
 
         <button class="button" id="collabBtn">Let's Chat!</button>
+        <button class="github-signin">Sign In with GitHub</button>
 
         <div class="quick-links">
             <a href="https://github.com/360-By-360Digital/360" target="_blank">360 Repo</a>
@@ -209,7 +244,7 @@
         </div>
 
         <div class="footer">
-            <p>Thanks for checking out my profile! Let’s build something awesome together. ✌🏼</p>
+            <p>Thanks for checking out my profile! ✌🏼</p>
         </div>
     </div>
 
@@ -226,8 +261,8 @@
             });
         });
 
-        // Ripple effect on button click
-        const buttons = document.querySelectorAll('.button');
+        // Ripple effect on all buttons
+        const buttons = document.querySelectorAll('.button, .github-signin');
         buttons.forEach(button => {
             button.addEventListener('click', (e) => {
                 const ripple = document.createElement('span');
