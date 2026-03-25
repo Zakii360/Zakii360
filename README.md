@@ -3,9 +3,9 @@
 
 
 - ☕ I’m currently working on 360, a search engine focused on making browsing ✨<em>better</em>✨
-- 💲 I’m currently trying to get better at HTML...
-- 🏢 I’m looking to collaborate on any open source repo's like Bootstrap!
-- 📫 Wanna contact me?: <a href="zakii@360-search.com">Email</a>
+- 🚧 I’m currently trying to get better at HTML...
+- 🏢 I’m looking to collaborate on any open source repo's like Bootstrap! (please do not contact me involving collabs)
+- 📫 Wanna contact me?: <a href="zakii@360-search.com">Email</a> Please don't though...
 
                                             Quick Links:
   <a href="https://www.360-search.com">360</a> /
