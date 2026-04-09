@@ -9,7 +9,9 @@
 
 Achievements (from the perspective of some random person on the internet):
 🏷️- I turned my website into a working app with Electron using the base HTML frame!
+/
 🏷️- I have like 3 GitHub achievements [as of now] which illustrate my capabilities and comfort in tools like GitHub.
+/
 🏷️- I constructed a fully working search engine (with my friend) in about a week! Check the repo history to see how far it's gotten in a DAY :)
 
                                               
@@ -30,7 +32,7 @@ A: Yes! Everyone is allowed to submit pull requests to 360! We usually may take 
                                             Quick Links:
   <a href="https://www.360-search.com">360</a> /
   <a href="https://github.com/360-By-360Digital/360">360 Repo</a> /
-  <a href="https://g.dev/webpprentice">Google Developers Profile</a>
+  <a href="https://g.dev/webpprentice">Google Developers Profile</a> /
 
   That's... all for now.....
 
