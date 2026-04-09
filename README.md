@@ -7,7 +7,9 @@
 - 🏢 I’m looking to collaborate on any open source repo's like Bootstrap! (please do not contact me involving collabs)
 - 📫 Wanna contact me?: <a href="zakii@360-search.com">Email</a> Please don't though...
 
-Achievements (from the perspective of some random person on the internet):
+
+                    Achievements (from the perspective of some random person on the internet):
+  
 🏷️- I turned my website into a working app with Electron using the base HTML frame! /
 
 🏷️- I have like 3 GitHub achievements [as of now] which illustrate my capabilities and comfort in tools like GitHub. /
