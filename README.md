@@ -8,11 +8,11 @@
 - 📫 Wanna contact me?: <a href="zakii@360-search.com">Email</a> Please don't though...
 
 Achievements (from the perspective of some random person on the internet):
-🏷️- I turned my website into a working app with Electron using the base HTML frame!
-/
-🏷️- I have like 3 GitHub achievements [as of now] which illustrate my capabilities and comfort in tools like GitHub.
-/
-🏷️- I constructed a fully working search engine (with my friend) in about a week! Check the repo history to see how far it's gotten in a DAY :)
+🏷️- I turned my website into a working app with Electron using the base HTML frame! /
+
+🏷️- I have like 3 GitHub achievements [as of now] which illustrate my capabilities and comfort in tools like GitHub. /
+
+🏷️- I constructed a fully working search engine (with my friend) in about a week! Check the repo history to see how far it's gotten in a DAY :) /
 
                                               
                                                FAQ'S:
