@@ -233,6 +233,8 @@
         Sign In with GitHub
     </button>
 
+    <button id="random-btn" class="button">Some Random Button</button>
+
     <div id="user-info" style="display:none;">
         <h3>Welcome, <span id="user-name"></span></h3>
         <p>Email: <span id="user-email"></span></p>
@@ -276,16 +278,14 @@
         await client.auth.signOut();
         location.reload();
     }
+
+    document.getElementById('random-btn').onclick = () => {
+    window.location.href = 'https://www.google.com';
+};
 </script>
 
 </body>
 </html>
-
-
-
-
-
-
 
 
 
