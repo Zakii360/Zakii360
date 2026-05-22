@@ -1,42 +1,132 @@
-## Hi there 👋
+<h1 align="center">
+  zakii360
+</h1>
 
+<p align="center">
+  builder • web nerd • search • open source personnn
+</p>
 
+<p align="center">
+  <a href="https://www.360-search.com">
+    <img width="40" src="https://cdn.simpleicons.org/googlechrome" alt="Website">
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:zakii@360-search.com">
+    <img width="40" src="https://cdn.simpleicons.org/gmail" alt="Email">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/360DigitalCo/360">
+    <img width="40" src="https://cdn.simpleicons.org/github" alt="Repo">
+  </a>
+</p>
 
-- ☕ I’m currently working on 360, a search engine focused on making browsing ✨<em>better</em>✨
-- 🚧 I’m currently trying to get better at JavaScript...
-- 🏢 I’m looking to collaborate on any open source repo's like Bootstrap! (please do not contact me involving collabs)
-- 📫 Wanna contact me?: <a href="mailto:zakii@360-search.com">Email</a> Please don't though...
+---
 
+## about me
 
-                    Achievements (from the perspective of some random person on the internet):
-  
-🏷️- I turned my team's website into a working app with Electron using the base HTML frame! /
+☕ currently building **360**  
+a search engine focused on making browsing better.
 
-🏷️- I have like 3 GitHub achievements [as of now] which illustrate my capabilities and comfort in tools like GitHub. /
+🚧 currently learning:
+- weave.web
+- JavaScript
+- CSS
 
-🏷️- I constructed a fully working search engine (with my friend) in about a week! Check the repo history to see how far it's gotten in a DAY :) /
+🏢 not available for hire
 
-                                              
-                                               FAQ'S:
-Q: Are you available for hire?
-A: Unfortunately, I am NOT available for hire, but you can reach out to me for business inquiries anyway! The catch is that I just may not reply.
+📫 contact:
+[`zakii@360-search.com`](mailto:zakii@360-search.com)
 
-Q: What languages are you fluent in?
-A: If you meant languages "programming-wise," I am fluent in HTML, CSS, and I'm kinda bad at JS, but I can manage. I am currently trying to get better at that and Python.
+(please don't though.)
 
-Q: Can I work for 360Digital?
-A: Unfortunately, 360Digital only hires select employees they personally know.
+---
 
-Q: Can I contribute to 360-search.com (like, pull requests)?
-A: Yes! Everyone is allowed to submit pull requests to 360! We usually may take 1-3 days to review them but if accepted, credit will be given :)
+## skill issue graph
 
-                                            
-                                            Quick Links:
-  <a href="https://www.360-search.com">360</a> /
-  <a href="https://github.com/360-By-360Digital/360">360 Repo</a> /
-  <a href="https://g.dev/webpprentice">Google Developers Profile</a> /
+```txt
+HTML       ██████████████░ 95%
+CSS        ███░░░░░░░░░░░░ 20%
+JavaScript ███░░░░░░░░░░░░ 20%
+Python     ██░░░░░░░░░░░░░ 12%
+Weave.web  ████░░░░░░░░░░░ loading...
+```
 
-  That's... all for now.....
+---
 
-                                                Bye!
-Thanks for checking out my profile! ✌🏼
+## random achievements™
+
+🏷️ Turned my team's website into a working desktop app using Electron
+
+🏷️ Built a fully working search engine with my friend in about a week  
+(check commit history if you enjoy software evolving at concerning speed Ig)
+
+🏷️ Got GitHub achievements because apparently coding has unlockables now
+
+---
+
+## FAQ
+
+<details>
+<summary>Are you available for hire?</summary>
+
+Unfortunately, NO.
+
+Business inquiries are still welcome.
+
+</details>
+
+<details>
+<summary>What languages are you fluent in?</summary>
+
+HTML is my strongest.
+
+Currently learning:
+- weave.web
+- JavaScript
+- CSS
+- Python
+
+</details>
+
+<details>
+<summary>Can I work for 360Digital?</summary>
+
+Currently no.
+
+</details>
+
+<details>
+<summary>Can I contribute to 360?</summary>
+
+YES.
+
+Everyone is allowed to submit pull requests.
+
+Reviews usually take around 1–3 days.
+
+If accepted, credit is given.
+
+</details>
+
+---
+
+## quick links
+
+🌐 **360**  
+https://www.360-search.com
+
+🛠️ **Source Code**  
+https://github.com/360DigitalCo/360
+
+🧠 **Developer Profile**  
+https://g.dev/webpprentice
+
+---
+
+<div align="center">
+
+### thanks for stopping by
+
+made with HTML and food
+
+</div>
