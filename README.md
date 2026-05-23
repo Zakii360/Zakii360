@@ -18,6 +18,25 @@
   <a href="https://github.com/360DigitalCo/360">
     <img width="40" src="https://cdn.simpleicons.org/github" alt="Repo">
   </a>
+
+<a href="https://github.com/zakii360">
+  <img width="40" src="https://cdn.simpleicons.org/github" alt="GitHub">
+</a>
+
+<a href="https://g.dev/webpprentice">
+  <img width="40" src="https://cdn.simpleicons.org/google" alt="Google Dev">
+</a>
+
+<a href="https://linkedin.com/in/z-p-8986623a4/">
+  <img width="40" src="https://cdn.simpleicons.org/linkedin" alt="LinkedIn">
+</a>
+
+
+<a href="https://vercel.com">
+  <img width="40" src="https://cdn.simpleicons.org/vercel" alt="Deploy">
+</a>
+
+
 </p>
 
 ---
