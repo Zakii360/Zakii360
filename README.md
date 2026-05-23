@@ -27,7 +27,7 @@
   </a>
   &nbsp;&nbsp;
 
-  <a href="https://linkedin.com/in/z-p-8986623a4/">
+  <a href="https://linkedin.com/in/z-p-8986623a4">
     <img width="40" src="https://cdn.simpleicons.org/linkedin" alt="LinkedIn">
   </a>
   &nbsp;&nbsp;
@@ -60,49 +60,76 @@ a search engine focused on making browsing better.
 
 ## skill issue graph
 
-
+```txt
 HTML       ██████████████░ 95%
 CSS        ███░░░░░░░░░░░░ 20%
 JavaScript ███░░░░░░░░░░░░ 20%
 Python     ██░░░░░░░░░░░░░ 12%
 Weave.web  ████░░░░░░░░░░░ loading...
-random achievements™
+```
+
+---
+
+## random achievements™
 
 🏷️ Turned my team's website into a working desktop app using Electron
 
-🏷️ Built a fully working search engine with my friend in about a week
+🏷️ Built a fully working search engine with my friend in about a week  
 (check commit history if you enjoy software evolving at concerning speed Ig)
 
 🏷️ Got GitHub achievements because apparently coding has unlockables now
 
-stats I TOTALLY don't check obsessively
-<p align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=zakii360&show_icons=true&hide_border=true" />
+---
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakii360&layout=compact&hide_border=true" />
+## stats I TOTALLY don't check obsessively
 
+<p align="center">
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api?username=zakii360&show_icons=true&hide_border=true&bg_color=00000000"
+  />
+
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakii360&layout=compact&hide_border=true&bg_color=00000000"
+  />
 </p>
-FAQ
-<details> <summary>Are you available for hire?</summary>
+
+---
+
+## FAQ
+
+<details>
+<summary>Are you available for hire?</summary>
 
 Unfortunately, NO.
 
 Business inquiries are still welcome.
 
-</details> <details> <summary>What languages are you fluent in?</summary>
+</details>
+
+<details>
+<summary>What languages are you fluent in?</summary>
 
 HTML is my strongest.
 
 Currently learning:
+- weave.web
+- JavaScript
+- CSS
+- Python
 
-weave.web
-JavaScript
-CSS
-Python
-</details> <details> <summary>Can I work for 360Digital?</summary>
+</details>
+
+<details>
+<summary>Can I work for 360Digital?</summary>
 
 Currently no.
 
-</details> <details> <summary>Can I contribute to 360?</summary>
+</details>
+
+<details>
+<summary>Can I contribute to 360?</summary>
 
 YES.
 
@@ -113,20 +140,30 @@ Reviews usually take around 1–3 days.
 If accepted, credit is given.
 
 </details>
-quick links
 
-🌐 360
+---
+
+## quick links
+
+🌐 **360**  
 https://www.360-search.com
 
-🛠️ Source Code
+🛠️ **Source Code**  
 https://github.com/360DigitalCo/360
 
-🧠 Developer Profile
+🧠 **Developer Profile**  
 https://g.dev/webpprentice
 
+---
+
 <div align="center">
-thanks for stopping by
+
+### thanks for stopping by
 
 made with HTML and food
 
-</div> <p align="center"> <img src="https://komarev.com/ghpvc/?username=zakii360&style=flat-square" /> </p>
+</div>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=zakii360&style=flat-square" alt="profile views">
+</p>
