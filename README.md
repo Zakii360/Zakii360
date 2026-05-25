@@ -143,6 +143,14 @@ If accepted, credit is given.
 
 ---
 
+<div align="center">
+## I mostly know/work with these:
+<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,tailwind,graphql,mongodb,postgres,mysql,sqlite,firebase,vercel,cloudflare,aws,docker,linux,ubuntu,debian,bash,git,github,vscode,figma,python,npm,githubactions&perline=10" />
+
+</div>
+
+---
+
 ## quick links
 
 🌐 **360**  
