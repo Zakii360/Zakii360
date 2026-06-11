@@ -176,3 +176,7 @@ made with HTML and food
   <img src="https://komarev.com/ghpvc/?username=zakii360&style=flat-square" alt="profile views">
 </p> ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Let's get this to like 50 :)
 As of now, the math states I do about 101 contributions a day.
+
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="z-p-8986623a4" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/z-p-8986623a4?trk=profile-badge">Zakii360</a></div>
+              
