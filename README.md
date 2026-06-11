@@ -27,7 +27,7 @@
   </a>
   &nbsp;&nbsp;
 
-  <a href="https://linkedin.com/in/z-p-8986623a4">
+  <a href="https://linkedin.com/in/Zakii360">
     <img width="40" src="https://cdn.simpleicons.org/linkedin" alt="LinkedIn">
   </a>
   &nbsp;&nbsp;
