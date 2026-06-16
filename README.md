@@ -180,5 +180,5 @@ As of now, the math states I do about 101 contributions a day.
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="z-p-8986623a4" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/z-p-8986623a4?trk=profile-badge">Zakii360</a></div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&lines=Bye+Bye+....+Bye?+LEAVE!!!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&lines=Bye+Bye+....+Bye?+LEAVE!!!+vkehbvjhdbvjhdf)](https://git.io/typing-svg)
               
