@@ -86,12 +86,12 @@ Weave.web  ████░░░░░░░░░░░ loading...
 <p align="center">
   <img
     height="170"
-    src="https://github-readme-stats.vercel.app/api?username=zakii360&show_icons=true&hide_border=true&bg_color=00000000"
+    src="https://github-readme-stats.vercel.app/api?username=zakii360how_icons=trueide_border=trueg_color="#00000000"
   />
 
   <img
     height="170"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakii360&layout=compact&hide_border=true&bg_color=00000000"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakii360ayout=compactide_border=trueg_color="#00000000"
   />
 </p>
 
@@ -142,9 +142,8 @@ If accepted, credit is given.
 </details>
 
 ---
-
+## I mostly know/work with these (programming) languages
 <div align="center">
-## I mostly know/work with these:
 <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,tailwind,graphql,mongodb,postgres,mysql,sqlite,firebase,vercel,cloudflare,aws,docker,linux,ubuntu,debian,bash,git,github,vscode,figma,python,npm,githubactions&perline=10" />
 
 </div>
@@ -174,9 +173,7 @@ made with HTML and food
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=zakii360&style=flat-square" alt="profile views">
-</p> ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Let's get this to like 50 :)
-As of now, the math states I do about 101 contributions a day.
-
+</p>
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="z-p-8986623a4" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/z-p-8986623a4?trk=profile-badge">Zakii360</a></div>
 
